@@ -2,7 +2,7 @@ version: 2
 jobs:
   build-and-test:
     docker:
-      - image: cimg/rust:1.76
+      - image: cimg/rust:1.75
     environment:
       # Fail the build if there are warnings
       RUSTFLAGS: '-D warnings'
